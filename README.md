@@ -5,7 +5,7 @@ Your go to Backend kit for starting a NodeJS project
 To start using this backend at the earliest, a few steps have to be first done
 
 - Create a .env file
-- If you want to connect to a mongo instance, initialise the variable mongoPath
+- If you want to connect to a mongo instance, initialise the variable ``` process.env.mongoPath```
 - If you want to use cloudinary then intitialise 
 
 ```
