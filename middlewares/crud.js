@@ -1,4 +1,5 @@
-const mongoose = require("mongoose")
+const mongoose = require("mongoose");
+
 
 module.exports = {
 
@@ -6,9 +7,11 @@ module.exports = {
 
     {
         var obj = req.body
+        console.log(obj)
         var modelObj = new modelName(obj);
 
-
+        modelObj.hashPassword(modelObj.password);
+        console.log(modelObj.password);
         modelObj
             .save()
             .then(result => {
