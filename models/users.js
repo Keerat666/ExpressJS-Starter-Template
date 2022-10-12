@@ -13,6 +13,6 @@ var userSchema = new Schema({
     profile_picture: { type: String, default: "https://res.cloudinary.com/dwckgkzdz/image/upload/v1604757274/buddha_wyz1ek.jpg" },
 }, { collection: 'users_upswyft' });
 
-var UserModel = mongoose.model('UpswyftUsers', userSchema);
+var UserModel = mongoose.model('Users', userSchema);
 
 module.exports = UserModel;
