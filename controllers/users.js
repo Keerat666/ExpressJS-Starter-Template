@@ -20,7 +20,7 @@ module.exports = {
                     console.log("Entered Password " + req.body.password)
                     console.log("DB Password" + UserModel1.password)
 
-                    if (req.body.password == UserModel1.password) {
+                    if (UserModel1.validPassword(req.body.password)) {
 
                         if (err) {
                             return res.status(503).json({ "login": false, "err": err });
