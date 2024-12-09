@@ -1,14 +1,14 @@
 {
-    "name": "office_munchies",
+    "name": "ExpressJs-Template",
     "version": "1.0.0",
-    "description": "StackHack 2.0 Backend attemp",
+    "description": "Your ultimate ExpressJs Starter Kit",
     "main": "app.js",
     "scripts": {
         "test": "nodemon app.js",
         "start": "node ./bin/www"
     },
     "keywords": [
-        "StackHack"
+        "ExpressJs"
     ],
     "author": "Keerat666",
     "license": "ISC",
